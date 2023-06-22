@@ -1,0 +1,304 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	text-decoration: none;
+
+}
+body{
+	overflow: auto;
+}
+header{
+	position:sticky;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+.container{
+	width: 100%;
+	height: 60px;
+	background-color:#ffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.logo{
+
+	margin-left: 30px;
+}
+.logo a{
+text-transform: capitalize;
+letter-spacing: 4px;
+color: black;
+font-size: 19px;
+padding: 8px 16px;
+}
+.logo a:hover{
+	background-color:gray;
+}
+
+.navbar{
+	
+	margin-right: 30px;
+}
+
+ul {
+	display: flex;
+	
+}
+
+ul li a {
+	padding: 8px 16px;
+	font-size: 18px;
+	letter-spacing: 4px;
+	text-transform: capitalize;
+	color: black;
+}
+ul li a:hover{
+	background-color:gray;
+}
+
+/*-----------------Home section----------*/
+
+.home-container{
+	width: 100%;
+	
+	background-color: white;
+   
+}
+
+.row img{
+    width: 80%;
+    height: 80vh;
+    margin-left: 10%;
+    background-size: cover;
+    border-radius: 10px;
+	
+
+}
+
+.row .text{
+	
+	
+	
+	margin-left: 11%;
+	margin-top: -50px;
+	font-weight: 400;
+	font-size:26px;
+	letter-spacing: 4px;
+}
+
+/*-----------------ABOUT section----------*/
+
+.about{
+	width: 100%;
+    height:93vh;
+	
+	background-color:#fff;
+
+}
+.about-container{
+
+ width: 65%;
+ height: 5%;
+ margin-left: 20%;
+ margin-top: 4%;
+ display: flex;
+ justify-content: space-around;
+}
+
+.about-img{
+	width: 50%;
+	padding: 12px 24px!important;
+	
+}
+.about-img img{
+	    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+	background-size:cover;
+}
+.text-about{
+	width: 50%;
+	padding: 12px 24px!important;
+	
+}
+
+.text-about h1{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.text-about h5{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.text-about p{
+	text-align: start;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.text-about p{
+	text-align: start;
+	margin-left: 30px;
+	color:gray;
+}
+
+.about-container{
+
+	border-bottom: 1px solid gray;
+}
+
+/*-----------------AUR MENU- section----------*/
+
+.our-menu{
+	width: 100%;
+	height: 114vh;
+	background-color: #ffff;
+	
+	margin-top: 4%;
+}
+
+.our-menu .row{
+	
+	width: 65%;
+	height:96vh;
+    margin-left: 20%;
+	
+	display:flex;
+}
+
+.our-text{
+	width: 50%;
+	
+}
+.our-text h1{
+	    font-size: 36px;
+	text-align: center;
+}
+.our-text h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+        margin: 20px 0;
+}
+
+.our-menu-img{
+	width: 50%;
+	    padding: 12px 24px!important;
+
+}
+
+.our-menu-img img{
+	max-width: 100%;
+	min-height: 300px;
+	    opacity: 0.75;
+}
+
+.our-menu .row{
+	border-bottom: 2px solid gray;
+     margin-bottom: 10%;
+}
+
+
+
+/*-----------------COntect-  section----------*/
+
+.contect{
+	width: 100%;
+	height: 131vh;
+
+	background-color: #fff;
+	position: relative;
+	
+}
+
+.row-contect{
+	position: absolute;
+     width: 65%;
+	
+    margin-left: 20%;
+    margin-top: 5%;
+  
+    padding: 0.01em 16px;
+}
+.row-contect h1{
+        font-size: 36px;
+	 font-family: "Playfair Display";
+    letter-spacing: 5px;
+        font-weight: 400;
+    margin: 10px 0;
+}
+.text-blue{
+	    color: #607d8b!important;
+	        font-size: 18px!important;
+	        font-weight: 400;
+}
+
+.row-contect h1,p{
+	letter-spacing: 2px;
+	 margin: 10px 0;
+        margin: 20px 0;
+}
+.w3-input{
+	    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+button{
+
+	width:150px;
+	font-size: 17px;
+}
+
+footer{
+	width: 100%;
+	height:10vh;
+	background-color: lightgray;
+}
+footer p{
+	text-align: center;
+	padding:2%;
+	margin-bottom: 10px;
+}
+
+@media (max-width:1400px){
+	.container{
+		
+	}
+}
+
+@media (max-width:900px){
+  .logo{
+	
+    font-size: 20px;
+  }
+  .navbar{
+	
+	font-size: 19px;
+  }
+
+
+}
+
+@media (max-width:767px){
+
+	.logo a{
+		font-size: 23px;
+		font-weight: bold;
+	}
+	.navbar{
+	  display:none;
+	}
+}
